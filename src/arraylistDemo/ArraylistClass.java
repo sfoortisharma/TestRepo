@@ -8,12 +8,22 @@ public class ArraylistClass {
 	public static void main(String[] args) {
 	List<String> namelist= new ArrayList<String>();
 	
+	List<String> namelist2= new ArrayList<String>();
+	
 	//add element
 	namelist.add("Ajeet");
 	namelist.add("Harry");
 	namelist.add("Chaitanya");
 	namelist.add("Steve");
 	namelist.add("Anuj");
+	
+	
+	//add element
+	namelist2.add("Ajeet");
+		namelist2.add("Harry");
+		namelist2.add("Chaitanya");
+		namelist2.add("Steve");
+		namelist2.add("Anuj");
 	
 	//displaying name
 	System.out.println("original ArrayList");
