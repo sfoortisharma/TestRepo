@@ -3,12 +3,10 @@ package arraylistDemo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArraylistClass {
+public class BugFix_BN1520_User3 {
 	
 	public static void main(String[] args) {
 	List<String> namelist= new ArrayList<String>();
-	
-	List<String> namelist2= new ArrayList<String>();
 	
 	//add element
 	namelist.add("Ajeet");
@@ -16,14 +14,6 @@ public class ArraylistClass {
 	namelist.add("Chaitanya");
 	namelist.add("Steve");
 	namelist.add("Anuj");
-	
-	
-	//add element
-	namelist2.add("Ajeet");
-		namelist2.add("Harry");
-		namelist2.add("Chaitanya");
-		namelist2.add("Steve");
-		namelist2.add("Anuj");
 	
 	//displaying name
 	System.out.println("original ArrayList");
