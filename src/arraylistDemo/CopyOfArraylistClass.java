@@ -3,14 +3,10 @@ package arraylistDemo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArraylistClass {
+public class CopyOfArraylistClass {
 	
 	public static void main(String[] args) {
 	List<String> namelist= new ArrayList<String>();
-	
-	List<String> namelist1= new ArrayList<String>();
-	List<String> namelist2= new ArrayList<String>();
-	
 	
 	//add element
 	namelist.add("Ajeet");
@@ -20,11 +16,6 @@ public class ArraylistClass {
 	namelist.add("Anuj");
 	
 	//displaying name
-	System.out.println("original ArrayList");
-	for(String str:namelist){
-		System.out.println(str);
-	}
-	
 	System.out.println("original ArrayList");
 	for(String str:namelist){
 		System.out.println(str);
